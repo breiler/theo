@@ -5,7 +5,7 @@
  * Guide for firing laser. Connect the red wire from the laser module to pin 8 
  * and the black wire to any ground pin.
  * 
- * Open the Serial Monitor to view the print output.
+ * Open the Serial Monitor using baud 9600 to view the print output.
  * 
  * Check out the language refrence for more information:
  * https://www.arduino.cc/reference/en/
@@ -20,7 +20,7 @@ int laserPin = 8;
  */
 void setup() {
   // For writing text to the serial monitor
-  Serial.begin (9600);
+  Serial.begin(9600);
 
   // Makes the laser pin an output
   pinMode(laserPin, OUTPUT);
