@@ -4,7 +4,7 @@ This is the source code for an arduino experimental kit for building a target fi
  * Ardunio UNO
  * 5v laser module
  * [Ultra Sonic Sensor HC-SR04](https://www.electrokit.com/produkt/avstandsmatare-ultraljud-hc-sr04-2-400cm/ )
- * [Servo motor] (https://www.parallax.com/product/900-00005)
+ * [Servo motor](https://www.parallax.com/product/900-00005)
 
 For more information, see https://www.arduino.cc/reference/en/
 
