@@ -1,4 +1,4 @@
-# Arduino experimental kit - Laser turrent
+# Arduino Experimental Kit - Target finding laser turrent
 
 This is the source code for an arduino experimental kit for building a target finding laser turrent using:
  * Ardunio UNO
