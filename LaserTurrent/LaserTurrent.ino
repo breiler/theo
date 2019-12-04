@@ -64,7 +64,7 @@ void loop() {
     moveTurrentServo();
   }
 
-  // Wait 250ms before we try again
+  // Wait for a while and try again
   delay(50);
 }
 
@@ -105,11 +105,12 @@ int getDistance() {
 }
 
 /*
- * Function for moving the turrent servo. If the servo reaches the limit (0 to 180) 
+ * Function for moving the turrent servo. If the servo reaches the limit (0 or 180) 
  * it is reversed.
  */
 void moveTurrentServo() {
   // Figure out which direction we should step, negative or positive
+  // The step size determines the speed of the servo.
   int step = 5;
   if(!direction) {
     step = -5;
